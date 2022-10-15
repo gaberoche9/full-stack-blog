@@ -1,0 +1,23 @@
+npm axios install
+npm audit fix
+
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBZxAudETYbkr5ade3ujpJOUK6_hkQINTI",
+  authDomain: "my-react-blog-7c67d.firebaseapp.com",
+  projectId: "my-react-blog-7c67d",
+  storageBucket: "my-react-blog-7c67d.appspot.com",
+  messagingSenderId: "51139951246",
+  appId: "1:51139951246:web:fb2705cd0207338930a7df"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
