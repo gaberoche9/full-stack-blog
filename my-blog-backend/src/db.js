@@ -9,10 +9,10 @@ async function connectToDb(cb) {
     const client = new MongoClient(dbServer);
     await client.connect();
     db = client.db(dbName);
-    cb()
+    cb();
 }
 
 export {
     db,
     connectToDb,
-}
+};

@@ -6,4 +6,4 @@ npx nodemon src\server.js
 npm install mongodb
 npm run dev
 mongosh
-"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe" --dbpath="D:\MongoDB\data\db" from admin cmd
+"C:\Program Files\MongoDB\Server\6.0\bin\mongod.exe" --dbpath="D:\MongoDB\data\db"
